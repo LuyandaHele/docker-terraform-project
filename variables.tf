@@ -115,5 +115,18 @@ variable "database_name"{
     type = string
 }
 
+#s3 bucket
+ 
+variable "env_bucket_name"{
+    description = "s3 bucket name"
+    type = string 
+}
+
+variable "env_file_name"{
+    description = "s3 bucket env name"
+    type = string 
+}
+
+
 
 
