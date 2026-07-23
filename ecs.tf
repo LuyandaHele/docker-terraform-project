@@ -45,8 +45,7 @@ resource "aws_ecs_task_definition" "app_task" {
         }
       ]
 
-      # environmentFiles block removed temporarily — not needed for the nginx test image
-
+      
       logConfiguration = {
         logDriver = "awslogs",
         options = {
